@@ -44,8 +44,10 @@
     "async-validator": "^4.2.5"
   },
   "devDependencies": {
-    "vite-plugin-dts": "^3.9.1",
-    "@zznikki-element/components": "workspace:*"
+    "@zznikki-element/components": "workspace:*",
+    "execa": "^9.5.3",
+    "release-it": "17",
+    "vite-plugin-dts": "^3.9.1"
   },
   "peerDependencies": {
     "vue": "^3.4.19"
