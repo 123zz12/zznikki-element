@@ -3,7 +3,7 @@
 layout: home
 
 hero:
-  name: "Toy-Element"
+  name: "Zznikki-Element"
   text: "迅组件库"
   tagline: My great project tagline
   actions:

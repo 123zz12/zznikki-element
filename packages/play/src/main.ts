@@ -1,6 +1,6 @@
 import { createApp } from 'vue'
-import './style.css'
 import App from './App.vue'
-import ToyElement from "toy-element"
+import ZznikkiElement from "zznikki-element"
+import "zznikki-element/dist/index.css"
 
-createApp(App).use(ToyElement).mount('#app')
+createApp(App).use(ZznikkiElement).mount('#app')
