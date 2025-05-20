@@ -1,6 +1,7 @@
 import type { Meta, StoryObj, ArgTypes } from '@storybook/vue3'
 import { fn, within, userEvent, expect, clearAllMocks } from '@storybook/test'
 import { set } from "lodash-es"
+import 'zznikki-element/dist/theme/Button.css'
 
 import { ErButton, ErButtonGroup } from 'zznikki-element'
 
