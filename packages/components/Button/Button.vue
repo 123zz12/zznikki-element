@@ -40,7 +40,6 @@ defineExpose<ButtonInstance>({
     type
 })
 
-console.log('button')
 </script>
 
 <template>

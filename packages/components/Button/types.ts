@@ -22,12 +22,12 @@ export interface ButtonProps {
 
 export interface ButtonGroupProps {
     size?: ButtonSize;
-    type?: ButtonEmits;
+    type?: ButtonType;
     disabled?: boolean;
 }
 export interface ButtonGroupContext {
     size?: ButtonSize;
-    type?: ButtonEmits;
+    type?: ButtonType;
     disabled?: boolean;
 }
 
