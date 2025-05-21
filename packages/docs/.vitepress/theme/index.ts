@@ -4,7 +4,7 @@ import DefaultTheme from "vitepress/theme";
 import ToyElement from "zznikki-element";
 
 import "vitepress-preview-component/style.css";
-import "toy-element/dist/index.css";
+import "zznikki-element/dist/index.css";
 
 export default {
     ...DefaultTheme,

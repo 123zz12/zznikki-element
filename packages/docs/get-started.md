@@ -19,9 +19,9 @@ npm i @eric-ui --save
 
 ```js
 // 引入所有组件
-import EricUI from "toy-element";
+import EricUI from "zznikki-element";
 // 引入样式
-import "toy-element/dist/index.css";
+import "zznikki-element/dist/index.css";
 
 import App from "./App.vue";
 // 全局使用
@@ -43,7 +43,7 @@ Eric-UI 提供了基于 ES Module 的开箱即用的 Tree Shaking 功能。
   <er-button>我是 Button</er-button>
 </template>
 <script>
-import { ErButton } from " toy-element";
+import { ErButton } from " zznikki-element";
 export default {
   components: { ErButton },
 };
