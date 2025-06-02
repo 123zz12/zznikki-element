@@ -1,12 +1,13 @@
 import { defineConfig, } from "vite"
-import vue from "@vitejs/plugin-vue"
+import { delay, map, filter, defer } from "lodash-es"
 import { resolve } from "path";
-import dts from "vite-plugin-dts"
-import { readdirSync } from "fs"
-import { delay, map, filter } from "lodash-es"
+import { readdirSync, readdir } from "fs"
+
 import shell from "shelljs"
-import hooks from "./hooksPlugin"
+import vue from "@vitejs/plugin-vue"
+import { hooksPlugin as hooks } from "@zznikki-element/vite-plugins"
 import terser from "@rollup/plugin-terser"
+import dts from "vite-plugin-dts"
 
 const isProd = process.env.NODE_ENV === "production";
 const isDev = process.env.NODE_ENV === "development";
@@ -14,12 +15,10 @@ const isTest = process.env.NODE_ENV === "test";
 
 const TRY_MOVE_STYLES_DELAY = 800 as const;
 function moveStyles() {
-    try {
-        readdirSync('./dist/es/theme')
-        shell.mv("./dist/es/theme", "./dist")
-    } catch (_) {
-        delay(moveStyles, TRY_MOVE_STYLES_DELAY)
-    }
+    readdir("./dist/es/theme", (err) => {
+        if (err) return delay(moveStyles, TRY_MOVE_STYLES_DELAY);
+        defer(() => shell.mv("./dist/es/theme", "./dist"));
+    });
 }
 function getDirectoriesSync(basePath: string) {
     const entries = readdirSync(basePath, { withFileTypes: true })
@@ -74,7 +73,7 @@ export default defineConfig({
         cssCodeSplit: true,
 
         lib: {
-            entry: resolve(__dirname, "./index.ts"),
+            entry: resolve(__dirname, "../index.ts"),
             name: "ZznikkiElement",
             fileName: "index",
             formats: ["es"]

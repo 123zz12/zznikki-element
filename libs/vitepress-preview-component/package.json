@@ -4,19 +4,19 @@
     "description": "preview component of code and component in vitepress",
     "packageManager": "pnpm@7.9.5",
     "type": "module",
-    "main": "./dist/preview-component.umd.cjs",
-    "module": "./dist/preview-component.js",
-    "types": "./dist/index.d.ts",
+    "main": "./_product/preview-component.umd.cjs",
+    "module": "./_product/preview-component.js",
+    "types": "./_product/index.d.ts",
     "exports": {
         ".": {
-            "import": "./dist/preview-component.js",
-            "require": "./dist/preview-component.umd.cjs",
-            "default": "./dist/preview-component.js"
+            "import": "./_product/preview-component.js",
+            "require": "./_product/preview-component.umd.cjs",
+            "default": "./_product/preview-component.js"
         },
-        "./style.css": "./dist/style.css"
+        "./style.css": "./_product/style.css"
     },
     "files": [
-        "dist",
+        "_product",
         "README.md",
         "package.json",
         "types.d.ts"

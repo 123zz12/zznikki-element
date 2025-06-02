@@ -4,16 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "vitest --coverage"
+    "test": "cross-env NODE_ENV=test pnpm --filter @zznikki-element/hooks build && vitest --run --coverage",
+    "test:watch": "cross-env NODE_ENV=test pnpm --filter @zznikki-element/hooks build && vitest --coverage"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@10.6.3",
-  "devDependencies": {
-    "@vitest/coverage-v8": "^1.6.0",
-    "@vue/test-utils": "^2.4.5",
-    "vitest": "^1.6.0",
-    "jsdom": "^24.0.0"
-  }
+  "license": "ISC"
 }

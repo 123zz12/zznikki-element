@@ -1,13 +1,26 @@
 {
   "name": "@zznikki-element/hooks",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+  "type": "module",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "exports": {
+    ".": {
+      "import": "./dist/index.js",
+      "types": "./dist/index.d.ts"
+    }
   },
-  "keywords": [],
-  "author": "",
+  "scripts": {
+    "test": "vitest --run --coverage",
+    "build": "vite build"
+  },
   "license": "ISC",
-  "packageManager": "pnpm@10.6.3"
+  "packageManager": "pnpm@10.6.3",
+  "peerDependencies": {
+    "vue": "^3.4.19",
+    "lodash-es": "^4.17.21"
+  }
 }

@@ -10,7 +10,7 @@ next:
 ## 安装
 
 ```bash
-npm i @eric-ui --save
+npm i @zznikki-element --save
 ```
 
 ## 开始使用

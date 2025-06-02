@@ -7,7 +7,7 @@ export default function hooksPlugin({
     afterBuild,
 }: {
     rmFiles?: string[],
-    beforebuild?: Function,
+    beforeBuild?: Function,
     afterBuild?: Function
 
 }) {

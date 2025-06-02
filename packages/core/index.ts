@@ -1,4 +1,4 @@
-import { makeInstaller } from "@zznikki-element/utils";
+import { makeInstaller } from "./makeInstaller";
 import components from "./components"
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { fas } from "@fortawesome/free-solid-svg-icons"
@@ -10,4 +10,5 @@ library.add(fas);
 const installer = makeInstaller(components)
 
 export * from '@zznikki-element/components'
+export * from '@zznikki-element/locale'
 export default installer

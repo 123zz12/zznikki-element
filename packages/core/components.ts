@@ -1,6 +1,26 @@
-import { ErButton, ErButtonGroup, ErIcon, ErCollapse, ErCollapseItem, ErAlert } from '@zznikki-element/components'
+import {
+    ErButton,
+    ErButtonGroup,
+    ErIcon,
+    ErCollapse,
+    ErCollapseItem,
+    ErAlert,
+    ErTooltip,
+    ErPopconfirm,
+    ErDropdown,
+    ErDropdownItem
+} from '@zznikki-element/components'
 import type { Plugin } from 'vue'
 
 export default [
-    ErButton, ErIcon, ErButtonGroup, ErCollapse, ErCollapseItem, ErAlert
+    ErButton,
+    ErIcon,
+    ErButtonGroup,
+    ErCollapse,
+    ErCollapseItem,
+    ErAlert,
+    ErTooltip,
+    ErPopconfirm,
+    ErDropdown,
+    ErDropdownItem
 ] as Plugin[]
