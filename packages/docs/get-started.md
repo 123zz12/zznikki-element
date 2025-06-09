@@ -19,7 +19,7 @@ npm i @zznikki-element --save
 
 ```js
 // 引入所有组件
-import EricUI from "zznikki-element";
+import ZznikkiUI from "zznikki-element";
 // 引入样式
 import "zznikki-element/dist/index.css";
 
@@ -36,7 +36,7 @@ createApp(App).use(ErElement).mount("#app");
 
 **单个导入**
 
-Eric-UI 提供了基于 ES Module 的开箱即用的 Tree Shaking 功能。
+zznikki-element 提供了基于 ES Module 的开箱即用的 Tree Shaking 功能。
 
 ```vue
 <template>

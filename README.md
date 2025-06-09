@@ -3,11 +3,13 @@
 Vue3 + TS 高仿 ElementPlus 打造自己的组件库
 
 一款功能全面、易用性强、文档丰富的UI组件库，完美兼容Element Plus，为开发者提供高效的界面构建解决方案。
-<a href="https://github.com/coverjs/zznikki-element/actions?query=workflow%3A%22%22Test+and+deploy%22%22++"><img src="https://github.com/coverjs/zznikki-element/workflows/Test%20and%20deploy/badge.svg" alt="test and deploy"></a> 
+[![Test and deploy](https://github.com/123zz12/zznikki-element/actions/workflows/test-and-deploy.yml/badge.svg)](https://github.com/123zz12/zznikki-element/actions/workflows/test-and-deploy.yml)
 <a href="https://github.com/coverjs/zznikki-element/releases"><img src="https://img.shields.io/github/v/release/coverjs/zznikki-element?logo=git&logoColor=white&color=red" alt="npm downloads"></a> 
 <a href="https://www.npmjs.com/package/zznikki-element"><img src="https://img.shields.io/npm/d18m/zznikki-element?logo=npm&color=orange" alt="npm downloads"></a> 
 <a href="https://www.npmjs.com/package/zznikki-element"><img src="https://img.shields.io/npm/unpacked-size/zznikki-element?logo=GitLFS&logoColor=white&color=yellow" alt="npm unpacked size"></a> 
-<a href="https://app.codecov.io/github/123zz12/zznikki-element"><img src="https://img.shields.io/codecov/c/github/123zz12/zznikki-element/main.svg?logo=vitest&logoColor=white" alt="coverage"></a>
+<a href="https://codecov.io/gh/123zz12/zznikki-element" > 
+ <img src="https://codecov.io/gh/123zz12/zznikki-element/graph/badge.svg?token=4EG8U8LNTV"/> 
+ </a>
 ## 特性
 
 ### 功能覆盖和兼容性
@@ -26,7 +28,7 @@ Vue3 + TS 高仿 ElementPlus 打造自己的组件库
 
 ## 开始使用
 
-- 访问 [Eric-UI (ericwxy.github.io)](https://ericwxy.github.io/eric-ui/#/) 了解更多信息。
+- 访问 [zznikki-element (ericwxy.github.io)](https://ericwxy.github.io/zznikki-element/#/) 了解更多信息。
 
 ## 贡献指南
 
