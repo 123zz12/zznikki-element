@@ -8,8 +8,7 @@ Vue3 + TS 高仿 ElementPlus 打造自己的组件库
 <a href="https://www.npmjs.com/package/zznikki-element"><img src="https://img.shields.io/npm/d18m/zznikki-element?logo=npm&color=orange" alt="npm downloads"></a> 
 <a href="https://www.npmjs.com/package/zznikki-element"><img src="https://img.shields.io/npm/unpacked-size/zznikki-element?logo=GitLFS&logoColor=white&color=yellow" alt="npm unpacked size"></a> 
 <a href="https://codecov.io/gh/123zz12/zznikki-element" > 
- <img src="https://img.shields.io/codecov/c/github/123zz12/zznikki-element
- "/> 
+ <img src="https://img.shields.io/codecov/c/github/123zz12/zznikki-element"/> 
  </a>
 ## 特性
 
