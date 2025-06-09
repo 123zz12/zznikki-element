@@ -10,8 +10,7 @@
     "exports": {
         ".": {
             "import": "./_product/preview-component.js",
-            "require": "./_product/preview-component.umd.cjs",
-            "default": "./_product/preview-component.js"
+            "require": "./_product/preview-component.umd.cjs"
         },
         "./style.css": "./_product/style.css"
     },

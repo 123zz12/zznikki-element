@@ -2,6 +2,7 @@
   "name": "@zznikki-element/utils",
   "version": "1.0.0",
   "description": "",
+  "private": true,
   "main": "index.js",
   "scripts": {
     "test": "vitest --run --coverage"

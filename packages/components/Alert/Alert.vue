@@ -72,6 +72,6 @@ defineExpose<AlertInstance>({
   </transition>
 </template>
 
-<style scopoed>
+<style >
 @import "./style.css"
 </style>

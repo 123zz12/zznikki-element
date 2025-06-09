@@ -1,30 +1,22 @@
-<script setup lang="ts">
-import { ja, ko, en, zhCn, zhTw, ErConfigProvider } from "zznikki-element";
-import { get } from "lodash-es";
+<script lang="ts" setup>
+import { h } from "vue";
+import { ErMessage } from "zznikki-element";
 
-import { computed, ref } from "vue";
+const open = () => {
+  ErMessage("This is a message.");
+};
 
-const language = ref("");
-const langMap = {
-  ja,
-  ko,
-  en,
-  zhCn,
-  zhTw,
-} as const;
-const locale = computed(() => get(langMap, language.value));
-const changelang = () => {
-  const l = ["zhCn", "zhTw", "ko", "en", "ja"];
-  language.value = l[(l.indexOf(language.value) + 1) % l.length];
+const openVn = () => {
+  ErMessage({
+    message: h("p", { style: "line-height: 1; font-size: 14px" }, [
+      h("span", null, "Message can be "),
+      h("i", { style: "color: teal" }, "VNode"),
+    ]),
+  });
 };
 </script>
+
 <template>
-  <er-button @click="changelang" type="info" style="margin-right: 20px"
-    >change language</er-button
-  >
-  <er-config-provider :locale="locale">
-    <er-popconfirm title="Are you shure to delete this item?">
-      <er-button>Delete</er-button>
-    </er-popconfirm>
-  </er-config-provider>
+  <er-button :plain="true" @click="open">Show message</er-button>
+  <er-button :plain="true" @click="openVn">VNode</er-button>
 </template>

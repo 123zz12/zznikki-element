@@ -1,10 +1,6 @@
 {
     "extends": "@vue/tsconfig/tsconfig.dom.json",
     "compilerOptions": {
-        "types": [
-            "vitest",
-            "node"
-        ],
         "target": "ES2020",
         "useDefineForClassFields": true,
         "module": "ESNext",
@@ -33,7 +29,6 @@
         "packages/**/*.ts",
         "packages/**/*.tsx",
         "packages/**/*.vue",
-        "vitest.config.ts",
-        "libs/vite-plugins/hooksPlugin.ts"
+        "vitest.config.ts"
     ]
 }

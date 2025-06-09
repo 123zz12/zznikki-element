@@ -8,8 +8,18 @@ import {
     ErTooltip,
     ErPopconfirm,
     ErDropdown,
-    ErDropdownItem
-} from '@zznikki-element/components'
+    ErDropdownItem,
+    ErMessage,
+    ErNotification,
+    ErInput,
+    ErMessageBox,
+    ErForm,
+    ErFormItem,
+    ErLoading,
+    ErSwitch,
+    ErSelect,
+    ErOption
+} from '@zznikki-element/components';
 import type { Plugin } from 'vue'
 
 export default [
@@ -22,5 +32,15 @@ export default [
     ErTooltip,
     ErPopconfirm,
     ErDropdown,
-    ErDropdownItem
+    ErDropdownItem,
+    ErMessage,
+    ErNotification,
+    ErMessageBox,
+    ErInput,
+    ErForm,
+    ErFormItem,
+    ErLoading,
+    ErSwitch,
+    ErSelect,
+    ErOption
 ] as Plugin[]

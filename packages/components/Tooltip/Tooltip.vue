@@ -2,7 +2,7 @@
 import type{TooltipProps,TooltipEmits,TooltipInstance} from "./types"
 import {ref,watchEffect,type Ref,computed,watch,onUnmounted} from "vue"
 import {createPopper,type Instance } from "@popperjs/core"
-import {debounce, type DebouncedFunc,bind,isNil} from "lodash-es"
+import {debounce, type DebouncedFunc,bind} from "lodash-es"
 import {useClickOutside} from "@zznikki-element/hooks"
 
 import useEventsToTiggerNode from "./useEventsToTiggerNode"
@@ -221,6 +221,6 @@ defineExpose<TooltipInstance>({
   </div>
 </template>
 
-<style scoped>
+<style >
 @import "./style.css";
 </style>

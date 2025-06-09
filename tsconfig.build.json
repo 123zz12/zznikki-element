@@ -1,10 +1,6 @@
 {
     "extends": "@vue/tsconfig/tsconfig.dom.json",
     "compilerOptions": {
-        "types": [
-            "vitest",
-            "node"
-        ],
         "target": "ES2020",
         "useDefineForClassFields": true,
         "module": "ESNext",
@@ -27,6 +23,9 @@
         "noUnusedLocals": true,
         "noUnusedParameters": true,
         "noFallthroughCasesInSwitch": true,
+        "types": [
+            "node"
+        ],
         "baseUrl": "./",
         "paths": {
             "@zznikki-element/components": [
@@ -39,7 +38,7 @@
         "packages/core/index.ts",
         "packages/hooks/**/*.ts",
         "packages/utils/**/*.ts",
-        "packages/components/**/*.ts",
+        "packages/components/**/*.ts"
     ],
     "exclude": [
         "packages/components/vitest.config.ts"

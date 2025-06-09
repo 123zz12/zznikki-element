@@ -87,7 +87,7 @@ defineExpose<DropdownInstance>({
   </div>
 </template>
 
-<style scoped>
+<style >
 @import './style.css';
 :deep(.er-button-group) {
   & > :last-child {

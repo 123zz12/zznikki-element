@@ -162,6 +162,15 @@ describe("Collapse.vue", () => {
                 },
             }
         );
+        expect(warn.mock.calls).toMatchInlineSnapshot(
+            `
+            [
+              [
+                [ErUIError: [ErCollapse]:accordion mode should only have one active item],
+              ],
+            ]
+          `
+        );
     });
     expect(() => wrapper.vm.$nextTick()).toThrow();
     //     expect(warn.mock.calls).toMatchInlineSnapshot(

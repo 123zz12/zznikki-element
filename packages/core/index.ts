@@ -1,10 +1,9 @@
-import { makeInstaller } from "./makeInstaller";
-import components from "./components"
+import makeInstaller from "./makeInstaller";
 import { library } from "@fortawesome/fontawesome-svg-core"
 import { fas } from "@fortawesome/free-solid-svg-icons"
-import '@zznikki-element/theme/index.css'
+import components from "./components"
 import printLogo from "./printLogo";
-
+import '@zznikki-element/theme/index.css'
 printLogo()
 library.add(fas);
 const installer = makeInstaller(components)

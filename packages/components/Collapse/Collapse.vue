@@ -61,6 +61,6 @@ provide(COLLAPSE_CTX_KEY,{
     </div>
 </template>
 
-<style scoped> 
+<style> 
 @import "./style.css";
 </style>

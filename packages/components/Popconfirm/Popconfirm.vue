@@ -81,6 +81,6 @@ function cancel(e: MouseEvent) {
     </er-tooltip>
   </template>
   
-  <style scoped>
+  <style >
   @import "./style.css";
   </style>
