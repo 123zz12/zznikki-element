@@ -4,7 +4,7 @@ Vue3 + TS 高仿 ElementPlus 打造自己的组件库
 
 一款功能全面、易用性强、文档丰富的UI组件库，完美兼容Element Plus，为开发者提供高效的界面构建解决方案。
 [![Test and deploy](https://github.com/123zz12/zznikki-element/actions/workflows/test-and-deploy.yml/badge.svg)](https://github.com/123zz12/zznikki-element/actions/workflows/test-and-deploy.yml)
-<a href="https://github.com/coverjs/zznikki-element/releases"><img src="https://img.shields.io/github/v/release/coverjs/zznikki-element?logo=git&logoColor=white&color=red" alt="npm downloads"></a> 
+<a href="https://github.com/123zz12/zznikki-element/releases"><img src="https://img.shields.io/github/v/release/123zz12/zznikki-element?logo=git&logoColor=white&color=red" alt="npm downloads"></a> 
 <a href="https://www.npmjs.com/package/zznikki-element"><img src="https://img.shields.io/npm/d18m/zznikki-element?logo=npm&color=orange" alt="npm downloads"></a> 
 <a href="https://www.npmjs.com/package/zznikki-element"><img src="https://img.shields.io/npm/unpacked-size/zznikki-element?logo=GitLFS&logoColor=white&color=yellow" alt="npm unpacked size"></a> 
 <a href="https://codecov.io/gh/123zz12/zznikki-element" > 
