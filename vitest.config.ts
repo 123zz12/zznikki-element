@@ -16,12 +16,15 @@ export default defineConfig({
     test: {
         globals: true,
         environment: "jsdom",
+        pool: 'forks',
         setupFiles: [resolve(__dirname, "./vitest.setup.ts")],
-        coverage: {
-            include: ["src"],
-            reporter: ["lcov", "text"],
-            reportsDirectory: "/coverage",
-        },
+        // coverage: {
+
+        //     include: ['packages/**/*.{ts,js,vue}'],
+        //     reporter: ["lcov", "text"],
+        //     reportsDirectory: "./coverage",
+        // },
+
     },
 
 });

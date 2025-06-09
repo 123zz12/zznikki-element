@@ -50,6 +50,7 @@ export default {
 </script>
 ```
 
+
 ::: api-table src=components/Button/types.ts
 :::
 
