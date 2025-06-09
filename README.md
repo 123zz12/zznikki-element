@@ -7,8 +7,8 @@ Vue3 + TS 高仿 ElementPlus 打造自己的组件库
 <a href="https://github.com/123zz12/zznikki-element/releases"><img src="https://img.shields.io/github/v/release/123zz12/zznikki-element?logo=git&logoColor=white&color=red" alt="npm downloads"></a> 
 <a href="https://www.npmjs.com/package/zznikki-element"><img src="https://img.shields.io/npm/d18m/zznikki-element?logo=npm&color=orange" alt="npm downloads"></a> 
 <a href="https://www.npmjs.com/package/zznikki-element"><img src="https://img.shields.io/npm/unpacked-size/zznikki-element?logo=GitLFS&logoColor=white&color=yellow" alt="npm unpacked size"></a> 
-<a href="https://codecov.io/gh/123zz12/zznikki-element" > 
- <img src="https://codecov.io/gh/123zz12/zznikki-element/graph/badge.svg?token=4EG8U8LNTV"/> 
+<a href="https://img.shields.io/codecov/c/github/123zz12/zznikki-element" > 
+ <img src="https://img.shields.io/codecov/c/github/123zz12/zznikki-element"/> 
  </a>
 ## 特性
 
@@ -28,7 +28,7 @@ Vue3 + TS 高仿 ElementPlus 打造自己的组件库
 
 ## 开始使用
 
-- 访问 [zznikki-element (ericwxy.github.io)](https://ericwxy.github.io/zznikki-element/#/) 了解更多信息。
+- 访问 [zznikki-element](https://123zz12.github.io/zznikki-element/) 了解更多信息。
 
 ## 贡献指南
 
