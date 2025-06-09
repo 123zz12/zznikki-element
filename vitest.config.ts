@@ -20,7 +20,7 @@ export default defineConfig({
         coverage: {
             include: ["src"],
             reporter: ["lcov", "text"],
-            reportsDirectory: "../../coverage",
+            reportsDirectory: "/coverage",
         },
     },
 
