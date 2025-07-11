@@ -72,7 +72,7 @@ demo-preview=../demo/messagebox/Center.vue
 ## 全局方法
 
 `ErMessageBox` 提供了全局方法 `ErMessageBox.alert`、`ErMessageBox.confirm`、`ErMessageBox.prompt`，用于在需要时弹出消息弹框。
-如果完整引入了 `EricUI`, 则会为 `app.config.globalProperties` 添加全局方法 `$msgbox`、`$alert`、`$confirm`、`$prompt`。
+如果完整引入了 `zznikki-element`, 则会为 `app.config.globalProperties` 添加全局方法 `$msgbox`、`$alert`、`$confirm`、`$prompt`。
 在 Vue 实例中可以作为 `this.$msgbox`、`this.$alert`、`this.$confirm`、`this.$prompt` 使用。
 
 ## 单独引用
