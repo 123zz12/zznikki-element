@@ -44,7 +44,7 @@ demo-preview=../demo/loading/Fullscreen.vue
 服务方式调用，可以自定义遮罩的文案，也可以通过 `close` 方法关闭。
 
 ```typescript
-import { ErLoading } from "eric-ui";
+import { ErLoading } from "zznikki-element";
 ```
 
 需要的时候通过以下方式调用

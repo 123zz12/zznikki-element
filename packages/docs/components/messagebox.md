@@ -78,7 +78,7 @@ demo-preview=../demo/messagebox/Center.vue
 ## 单独引用
 
 ```typescript
-import { ErMessageBox } from "eric-ui";
+import { ErMessageBox } from "zznikki-element";
 ```
 
 ## MessageBox API
